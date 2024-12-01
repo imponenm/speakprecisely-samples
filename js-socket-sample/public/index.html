@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpeakPrecisely Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Real-Time Translation Demo</h1>
+        
+        <button id="recordButton" class="record-button">
+            <span class="mic-icon">🎤</span>
+            <span class="button-text">Start Recording</span>
+        </button>
+
+        <div class="cards-container">
+            <!-- English (Original) -->
+            <div class="card">
+                <h2>English</h2>
+                <div class="transcript-box" id="en-US-transcript"></div>
+            </div>
+
+            <!-- Spanish -->
+            <div class="card">
+                <h2>Spanish</h2>
+                <div class="transcript-box" id="es-transcript"></div>
+            </div>
+
+            <!-- French -->
+            <div class="card">
+                <h2>French</h2>
+                <div class="transcript-box" id="fr-transcript"></div>
+            </div>
+        </div>
+
+        <div id="recordingIndicator" class="recording-indicator hidden">
+            <div class="pulse"></div>
+            Recording...
+        </div>
+    </div>
+
+    <!-- Load the SDK first -->
+    <!-- <script src="https://unpkg.com/speak-precisely-sdk"></script> -->
+    <!-- Load our application code -->
+    <script src="app.js"></script>
+</body>
+</html>
+
