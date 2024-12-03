@@ -189,7 +189,7 @@ client.onTranscript = (result) => {
 recordButton.addEventListener('click', async () => {
     if (!isRecording) {
         try {
-            await client.connect('6903d1c34a5d019d625f0d2e563099a2', 'en-US', ['es', 'fr']);
+            await client.connect('YOUR_PUBLIC_KEY', 'en-US', ['es', 'fr']);
         } catch (error) {
             console.error('Failed to start recording:', error);
             alert('Failed to start recording. Please make sure you have given microphone permissions.');
