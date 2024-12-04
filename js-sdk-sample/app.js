@@ -1,3 +1,4 @@
+// app.js
 // Initialize the SDK with your public key
 const client = new SpeakPrecisely('YOUR_PUBLIC_KEY');
 

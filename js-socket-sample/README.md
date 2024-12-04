@@ -1,5 +1,5 @@
 ## Plain JS and Websockets
-This is a sample showing how to use the SpeakPrecisely API with Javascript and Websockets.
+This is a sample showing how to use the [SpeakPrecisely API](https://docs.speakprecisely.com/docs/transcribe) with Javascript and Websockets.
 
 First, replace `YOUR_PUBLIC_KEY` towards the bottom of app.js with your public key.
 

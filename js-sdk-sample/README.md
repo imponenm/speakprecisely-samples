@@ -1,5 +1,5 @@
 # Speak Precisely SDK
-This is a sample showing how to use the SpeakPrecisely SDK with Javascript.
+This is a sample showing how to use the [SpeakPrecisely SDK](https://github.com/imponenm/SpeakPrecisely-JS) with Javascript.
 
 Fist, set your public key in app.js.
 
